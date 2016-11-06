@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <label lang="en">Manufacturer configuration</label>
+    <label lang="de">Hersteller Freitextfeld Konfiguration</label>
+
+    <elements>
+        <element type="text">
+            <name>supplierAttribute</name>
+            <label lang="de">Freitextfeldattribut für die Bildausgabe im Frontend</label>
+            <label lang="en">Freetext field attribute for the image in frontend</label>
+        </element>
+    </elements>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">Hersteller Freitextfeld (Typ Media) als Bild ausgeben</label>
+    <label lang="en">Supplier freetext field (type media)</label>
+    <version>1.0.0</version>
+    <link>http://www.kevin-schmid.de</link>
+    <author>Kevin Schmid</author>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Initiale Veröffentlich</changes>
+        <changes lang="en">Initial release</changes>
+    </changelog>
+
+    <description lang="de">
+        Mit diesem Modul kann ein Freitextfeld vom Typ ShopwareMedia aus dem Bereich Hersteller definiert werden,
+        welches im Frotend dann über der Überschrift des Herstellers auch als Bild ausgegeben wird.
+    </description>
+    <description lang="en">
+        With this module your will be enabled to use a freetext field from typ ShopwareMedia in the manufacturer listing.
+    </description>
+    <compatibility minVersion="5.2.0" />
+
+</plugin>
