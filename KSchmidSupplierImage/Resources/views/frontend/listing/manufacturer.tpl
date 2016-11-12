@@ -4,7 +4,15 @@
 
     {if $kschmidManufacturerImage}
         <div class="hero--mediafile">
-            <img class="vendor--image" src="{link file=$kschmidManufacturerImage}" alt="{$manufacturer->getName()|escape}">
+            {if isset($kschmidManufacturerImage.thumbnails[1].sourceSet)}
+                <img class ="vendor--image" srcset="{$kschmidManufacturerImage.thumbnails[1].sourceSet}"
+                     alt="{$kschmidManufacturerImage.description|escape}"
+                     title="{$manufacturer->getName()|truncate:160}" />
+            {else}
+                <img class="vendor--image" src="{link file=$kschmidManufacturerImage.source}"
+                     alt="{$kschmidManufacturerImage.description|escape}"
+                     title="{$manufacturer->getName()|truncate:160}" />
+            {/if}
         </div>
     {/if}
 

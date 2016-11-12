@@ -4,10 +4,14 @@
 
     <label lang="de">Hersteller Freitextfeld (Typ Media) als Bild ausgeben</label>
     <label lang="en">Supplier freetext field (type media)</label>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <link>http://www.kevin-schmid.de</link>
     <author>Kevin Schmid</author>
 
+    <changelog version="1.0.1">
+        <changes lang="de">Anpassung Aufruf MediaObjekt ohne SQL Abfrage. Erweiterung des Moduls, sodass das Bild auch auf der Detailseite zur Verfügung steht.</changes>
+        <changes lang="en">Adapt the request for the media object without sql queries. Extend module, so that the image is now available on the article detail page</changes>
+    </changelog>
     <changelog version="1.0.0">
         <changes lang="de">Initiale Veröffentlich</changes>
         <changes lang="en">Initial release</changes>
