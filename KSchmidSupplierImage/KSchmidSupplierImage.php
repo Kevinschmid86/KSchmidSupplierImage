@@ -109,6 +109,7 @@ class KSchmidSupplierImage extends Plugin
                     $media = Shopware()->Container()->get('shopware_storefront.media_service')->get($manufacturerImage, $shopContext);
                     $media = Shopware()->Container()->get('legacy_struct_converter')->convertMediaStruct($media);
                 }
+
             }
         }
 
