@@ -34,7 +34,7 @@ class KSchmidSupplierImage extends Plugin
         $controller->View()->addTemplateDir($this->getPath() . '/Resources/views');
         $config = $this->container->get('shopware.plugin.config_reader')->getByPluginName($this->getName());
         $media = '';
-        $shopContext = $this->container->get('shopware_storefront.context_service')->getShopContext();
+        $shopContext = $this->container->get('shopware_storefront.context_service')->getShopContext(); 
 
         //Implement only for Manufacturer Action
         if($controller->Request()->getActionName() == 'manufacturer' && isset($config['supplierAttribute']))
